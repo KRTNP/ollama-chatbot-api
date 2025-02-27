@@ -7,7 +7,7 @@ This is an API for the Ollama Chatbot, which provides chat completions using a s
 1. Clone the repository:
 
   ```sh
-  git clone https://github.com/yourusername/ollama-chatbot-api.git
+  git clone https://github.com/krtn/ollama-chatbot-api.git
   cd ollama-chatbot-api
   ```
 
