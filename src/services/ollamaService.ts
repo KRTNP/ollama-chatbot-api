@@ -1,9 +1,9 @@
 import fetch from 'node-fetch';
 
-const OLLAMA_HOST = process.env.OLLAMA_HOST || 'http://127.0.0.1:11434';
-const DEFAULT_MODEL = process.env.DEFAULT_MODEL || 'llama3.2';
-const DEFAULT_TEMPERATURE = parseFloat(process.env.DEFAULT_TEMPERATURE || '0.7');
-const DEFAULT_SYSTEM_PROMPT = process.env.DEFAULT_SYSTEM_PROMPT || 'You are a helpful cooking assistant. You provide accurate, clear advice about cooking, recipes, and food preparation.';
+const OLLAMA_HOST = process.env.OLLAMA_HOST;
+const DEFAULT_MODEL = process.env.DEFAULT_MODEL;
+const DEFAULT_TEMPERATURE = parseFloat(process.env.DEFAULT_TEMPERATURE );
+const DEFAULT_SYSTEM_PROMPT = process.env.DEFAULT_SYSTEM_PROMPT;
 
 export const generateChatCompletion = async (
   prompt: string,
